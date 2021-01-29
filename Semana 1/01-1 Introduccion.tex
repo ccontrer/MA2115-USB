@@ -1,0 +1,168 @@
+\documentclass{beamer}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{lmodern}
+% \usepackage{fixltx2e}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{array}
+
+\usetikzlibrary{arrows,positioning} 
+
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=middle}}
+\pgfplotsset{compat=1.9}
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\E}{E}
+
+\usecolortheme{shigoto}
+
+\definecolor{darkblue}{rgb}{0.2,0.2,0.6}
+\definecolor{darkred}{rgb}{0.6,0.1,0.1} 
+\definecolor{darkgreen}{rgb}{0.2,0.6,0.2}
+
+
+\title{Preparadurías de Mate 4}
+\institute{Universidad Simón Bolívar}
+\author[Contreras]{Carlos Contreras }
+\date{Ene-Mar 2021}
+
+
+
+\begin{document}
+
+\setbeamercolor*{section in toc}{fg=black}
+\setbeamercolor*{item}{fg=AwayWinter!80!black}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+     \thispagestyle{empty}
+     \titlepage
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-----------------------------------------------------------------
+\begin{frame}
+\frametitle{¿Quién soy yo?}
+
+\begin{itemize}
+ \item Vivo en Edmonton, Canadá
+ \item Carnet 03, egresado de matemáticas aplicadas
+ \item PhD en matemáticas aplicadas en la Universidad de Alberta
+ \item Passión: biología matemática y machine learning
+ \item Actualmente investigador e instructor en la Universidad de Alberta
+\end{itemize}
+
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-----------------------------------------------------------------
+\begin{frame}
+\frametitle{Programa}
+\begin{itemize}
+ \item Series y sucesiones
+ \begin{itemize}
+  \item Series de potencias
+  \item Series de Taylor
+ \end{itemize}
+ \item Ecuaciones diferenciales ordinarias
+ \begin{itemize}
+  \item Ecuaciones de primer orden
+  \item Sistemas de ecuaciones de primer orden
+  \item Ecuaciones lineales de segundo orden
+ \end{itemize}
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-----------------------------------------------------------------
+\begin{frame}
+\frametitle{Evaluaciones}
+Dos evaluaciones de 20\% cada una en semana 4 y semana 9.
+
+\vspace{10pt}
+Formato: TBD.
+
+\vspace{10pt}
+Total: 40\% será evaluado en las prepas.
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-----------------------------------------------------------------
+\begin{frame}
+\frametitle{Series de potencia}
+Representación de una función en términos de polinomios
+\[f(x)=a_{0}+a_{1}x+a_{2}x^{2}+a_{3}x^{3}+\cdots \onslide<2->{=\sum_{n=0}^{\infty}a_{n}x^{n}}\]
+
+Por ejemplo,
+\begin{itemize}
+ \item $e^{x} = 1+x+\frac{1}{2}x^{2}+\frac{1}{6}x^{3}+\cdots = \onslide<2->{\sum_{n=0}^{\infty}\frac{1}{n!}x^{n}}.$
+ \item $\sin(x) = x-\frac{1}{6}x^{3}+\frac{1}{120}x^{5}+\cdots = \onslide<2->{\sum_{n=0}^{\infty}\frac{(-1)^{n}}{(2n+1)!}x^{2n+1}}.$
+ \item $x(x-2)(x+2)=0-4x+0x^{2}+x^{3}+0x^{4}+\cdots$
+\end{itemize}
+
+\vspace{10pt}
+\onslide<3>{
+Representación alrededor de un punto
+\[f(x)=a_{0}+a_{1}(x-a)+a_{2}(x-a)^{2}+\cdots =\sum_{n=0}^{\infty}a_{n}(x-a)^{n}\]
+}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-----------------------------------------------------------------
+\begin{frame}
+\frametitle{Series de Taylor}
+Los coefficientes de las serie
+\[f(x)=a_{0}+a_{1}(x-a)+a_{2}(x-a)^{2}+\cdots =\sum_{n=0}^{\infty}a_{n}(x-a)^{n}\]
+son
+\[a_{n}=\frac{f^{(n)}(a)}{n!}\]
+Las derivadas de $f(x)$ son usadas para la representación!
+\pause
+
+\vspace{10pt}
+Aproximación de una función
+\[\sin(x) \approx x-\frac{1}{6}x^{3}+\frac{1}{120}x^{5}\]
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-----------------------------------------------------------------
+\begin{frame}
+\frametitle{Ecuaciones differenciales de primer orden}
+Ecuación lineal
+\[y=ax+b\]
+Ecuación differencial lineal de primer orden
+\[y'=a(x)y+b(x)\]
+\pause
+Ecuación differenciales lineales
+\begin{itemize}
+    \item Autonomas \[y'=f(y)\]
+    \item No autonomas \[y'=f(x,y)\]
+\end{itemize}
+
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-----------------------------------------------------------------
+\begin{frame}
+\frametitle{Sistemas de ecuaciones differenciales de primer orden}
+Ecuación differencial lineal autonoma de primer orden
+\[y'=f(y)\]
+Varias ecuaciones juntas
+\[
+\begin{aligned}
+y_{1}'&=f(y_{1},y_{2}) \\
+y_{2}'&=f(y_{1},y_{2})
+\end{aligned}
+\]
+
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-----------------------------------------------------------------
+\begin{frame}
+\frametitle{Ecuaciones differenciales de segundo orden}
+Ecuación differencial lineal de primer orden
+\[y'+p(x)y=q(x)\]
+Ecuación differencial lineal de segundo orden
+\[y''+p(x)y'+q(x)y=r(x)\]
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
