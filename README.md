@@ -11,6 +11,18 @@ Preparadurías de Mate 4 (Universidad Simón Bolívar)
 
 ## Semana 1
 
-[Notas](./Semana%201/01-1%20Introduccion.pdf)
+[Notas](./semana01.pdf)
 
 [Video](https://youtu.be/omqSNQxHpwU)
+
+## Semana 2
+
+[Notas](./semana02-notas.pdf)
+
+Videos
+
+ - [Sucesiones](https://youtu.be/me4O8W8yZuo)
+
+ - [Inducción](https://youtu.be/Vraj2TGjSoI)
+
+ - [Series](https://youtu.be/QT7MhVVftuk)
