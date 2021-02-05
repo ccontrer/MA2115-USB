@@ -29,10 +29,13 @@ Videos
 
 ## Semana 3
 
-[Notas en blanco](./semana03.pdf)
+[Notas](./semana03-notas.pdf)
 
 [Desmos notebook](https://www.desmos.com/calculator/zw4gdsok9k)
 
 Videos
 
- - 
+ - [Repaso](https://youtu.be/B8Qi8pOGOkc)
+ - [Criterios de convergencia p1](https://youtu.be/gMftqihd7eI)
+ - [Criterios de convergencia p2](https://youtu.be/nsrB-KM3Kew)
+ - [Series alternantes](https://youtu.be/2cFEspVbD7k)
