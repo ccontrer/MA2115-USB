@@ -22,9 +22,7 @@ Preparadurías de Mate 4 (Universidad Simón Bolívar)
 Videos
 
  - [Sucesiones](https://youtu.be/me4O8W8yZuo)
-
  - [Inducción](https://youtu.be/Vraj2TGjSoI)
-
  - [Series](https://youtu.be/QT7MhVVftuk)
 
 ## Semana 3
