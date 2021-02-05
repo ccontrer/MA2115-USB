@@ -26,3 +26,11 @@ Videos
  - [Inducción](https://youtu.be/Vraj2TGjSoI)
 
  - [Series](https://youtu.be/QT7MhVVftuk)
+
+## Semana 3
+
+[Notas](./semana03.pdf)
+
+Videos
+
+ - 

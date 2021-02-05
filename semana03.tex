@@ -1,0 +1,230 @@
+\documentclass[12pt,oneside]{book}
+
+
+\usepackage{remotelecture}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage[margin=60pt]{geometry}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{everyshi}% http://ctan.org/pkg/everyshi
+\usepackage{lipsum}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{graphicx}
+
+
+% definitions
+\newcounter{weekpage}
+
+% everyshi options
+\EveryShipout{\stepcounter{weekpage}}% Step pagecntr every page
+
+
+
+% titlesec options
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{\Large MA-2115: Matemáticas 4}{10pt}{\huge}
+
+
+% fancyhrd options
+\setlength{\headheight}{15pt}
+\pagestyle{fancy}
+
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\renewcommand{\sectionmark}[1]{ \markright{#1}{} }
+
+\fancypagestyle{plain}{%
+    \fancyhf{}
+    \fancyfoot[C]{\thepage}
+    \renewcommand{\headrulewidth}{0pt}
+}
+
+\fancypagestyle{plainweek}{%
+    \fancyhf{}
+%     \fancyfoot[C]{\bf \thepage~(\theweekpage)}
+    \fancyfoot[C]{\bf \theweekpage}
+    \renewcommand{\headrulewidth}{0pt}
+}
+
+\lhead{\bf Mate 4}
+\chead{{\bf\leftmark}}
+\rhead{\rightmark}
+% \cfoot{\bf\thepage~(\theweekpage)}
+\cfoot{\bf\theweekpage}
+
+
+% Title
+\title{\bf MA-2115: Matemáticas 4}
+\author{Carlos Contreras}
+\date{Universidad Simón Bolívar \\ Ene-Mar 2021}
+
+
+
+
+
+\begin{document}
+
+
+% \thispagestyle{empty}
+
+% \frontmatter
+
+% \maketitle
+
+% \tableofcontents
+
+
+% \chapter{Preface}
+
+
+% \mainmatter
+
+
+\chapter{Semana 3}
+\setcounter{weekpage}{1}
+\thispagestyle{plainweek}
+
+\setcounter{chapter}{3}
+
+\section{Criterios de convergencia}
+
+\begin{enumerate}
+
+
+ \item Criterio de comparación
+ 
+  \vspace{100pt}
+ 
+ 
+ \item Criterio de comparación usando límite
+
+   \vspace{100pt}
+ 
+ 
+ \item Criterio de la integral
+ 
+   \vspace{100pt}
+   
+   
+ \item Criterio de la serie $p$
+ 
+ 
+ \newpage
+ 
+ \item \textit{Ejercicio 3.1}
+ 
+ Determine la convergencia de $\displaystyle \sum_{n=1}^{\infty}e^{-n}$.
+ 
+ \vspace{180pt}
+ 
+ 
+ 
+ \item \textit{Ejercicio 3.2}
+ 
+ Determine la convergencia de $\displaystyle \sum_{n=1}^{\infty}\frac{1}{\sqrt[3]{3n^3+1}}$.
+ 
+ 
+ \vspace{180pt}
+ 
+ \item \textit{Ejercicio 3.3}
+ 
+ Determine la convergencia de $\displaystyle \sum_{n=1}^{\infty}\frac{1+\sin(n)}{\sqrt[p]{n}}$.
+ 
+ 
+ \newpage
+ 
+ \vspace{220pt}
+ 
+ 
+
+ \item Criterio del cociente
+ 
+  \vspace{100pt}
+ 
+ 
+ \item Criterio de la raíz
+
+   \vspace{120pt}
+   
+   
+ 
+ \item \textit{Ejercicio 3.3}
+ 
+ Determine la convergencia de $\displaystyle \sum_{n=1}^{\infty}\frac{(n+1)!}{n^n}$.
+
+ 
+ 
+   \vspace{120pt}
+   
+   
+ 
+ \item \textit{Ejercicio 3.4}
+ 
+ Determine los valores de $a>0$ para los cuales la serie $\displaystyle \sum_{n=1}^{\infty} \left( a + \frac{1}{n}\right)^{n}$ converge.
+
+ 
+\end{enumerate}
+
+\newpage
+
+\section{Series alternantes}
+
+\begin{enumerate}
+
+
+ \item \textit{Definición}
+ 
+  \vspace{100pt}
+  
+  
+  \item Criterio de series alternantes (criterio de Leibnitz)
+  
+ 
+  \vspace{100pt}
+  
+  
+  \item \textit{Ejercicio 3.5}
+  
+    Determine la convergencia de $\displaystyle \sum_{n=1}^{\infty} \frac{\cos(n\pi)}{n\ln^2(n)} $.
+
+
+\end{enumerate}
+    
+\newpage
+    
+\section{Convergencia absoluta}
+
+\begin{enumerate}
+
+
+ \item \textit{Definición}
+ 
+  \vspace{100pt}
+  
+  
+  \item Criterio de series alternantes (criterio de Leibnitz)
+  
+ 
+  \vspace{100pt}
+  
+  
+  \item \textit{Ejercicio 3.5}
+  
+    Determine la convergencia absoluta de $\displaystyle \sum_{n=1}^{\infty} \frac{(-1)^{n}}{n} $.
+
+  \vspace{100pt}
+  
+  
+  \item \textit{Ejercicio 3.6}
+  
+    Determine la convergencia absoluta de $\displaystyle \sum_{n=1}^{\infty} \frac{\cos(n\pi)}{n\ln^2(n)} $.
+
+\end{enumerate}
+
+\end{document}
+
+
+
