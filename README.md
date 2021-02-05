@@ -31,6 +31,8 @@ Videos
 
 [Notas](./semana03.pdf)
 
+[Desmos notebook](https://www.desmos.com/calculator/zw4gdsok9k)
+
 Videos
 
  - 
