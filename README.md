@@ -37,3 +37,14 @@ Videos
  - [Criterios de convergencia p1](https://youtu.be/gMftqihd7eI)
  - [Criterios de convergencia p2](https://youtu.be/nsrB-KM3Kew)
  - [Series alternantes](https://youtu.be/2cFEspVbD7k)
+
+## Semana 4
+
+[Notas](./semana04-notas.pdf)
+
+Videos
+
+ - [Convergencia absoluta y condicional](https://youtu.be/Z7J4OcrtI6Q)
+ - [Ejemplos](https://youtu.be/eclPhEPZEN8)
+ - [Series de potencias](https://youtu.be/D1fBXtM4sb8)
+ 
