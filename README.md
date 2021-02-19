@@ -48,3 +48,15 @@ Videos
  - [Ejemplos](https://youtu.be/eclPhEPZEN8)
  - [Series de potencias](https://youtu.be/D1fBXtM4sb8)
  
+## Semana 5
+
+[Notas](./semana05.pdf)
+
+[Desmos notebook](https://www.desmos.com/calculator/y8dtmftwcl)
+
+Videos
+
+ - [Ejercicio 1]()
+ - [Ejercicio 2]()
+ - [Ejercicio 3]()
+ - [Clasificación de ecuaciones diferenciales]()
