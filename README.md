@@ -50,13 +50,13 @@ Videos
  
 ## Semana 5
 
-[Notas](./semana05.pdf)
+[Notas](./semana05-notas.pdf)
 
 [Desmos notebook](https://www.desmos.com/calculator/y8dtmftwcl)
 
 Videos
 
- - [Ejercicio 1]()
- - [Ejercicio 2]()
- - [Ejercicio 3]()
- - [Clasificación de ecuaciones diferenciales]()
+ - [Ejercicio 1](https://youtu.be/PlaOIbNBHd4)
+ - [Ejercicio 2](https://youtu.be/ro5FfkdkYo8)
+ - [Ejercicio 3](https://youtu.be/22_CDaX22Ik)
+ - [Clasificación de ecuaciones diferenciales](https://youtu.be/YBB3WGiseYw)
