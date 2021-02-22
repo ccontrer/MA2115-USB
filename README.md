@@ -60,3 +60,13 @@ Videos
  - [Ejercicio 2](https://youtu.be/ro5FfkdkYo8)
  - [Ejercicio 3](https://youtu.be/22_CDaX22Ik)
  - [Clasificación de ecuaciones diferenciales](https://youtu.be/YBB3WGiseYw)
+ 
+## Semana 6
+
+[Notas](./semana06.pdf)
+
+Videos
+
+ - [Ecuaciones separables de primer orden]()
+ - [Ecuaciones separables de primer orden (substituciones)]()
+ - [Ecuaciones lineales de primer orden]()
