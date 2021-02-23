@@ -63,10 +63,11 @@ Videos
  
 ## Semana 6
 
-[Notas](./semana06.pdf)
+[Notas](./semana06-notas.pdf)
 
 Videos
 
- - [Ecuaciones separables de primer orden]()
- - [Ecuaciones separables de primer orden (substituciones)]()
- - [Ecuaciones lineales de primer orden]()
+ - [Ecuaciones separables de primer orden](https://youtu.be/J8R2KwcBuzM)
+ - [Ecuaciones separables de primer orden (substituciones)](https://youtu.be/Gthg-APlYVM)
+ - [Ecuaciones lineales de primer orden](https://youtu.be/7DT-LtNTKC0)
+ - [Curvas ortogonales](https://youtu.be/k6QoNiFZTFM)
