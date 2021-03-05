@@ -74,11 +74,11 @@ Videos
 
 ## Semana 7
 
-[Notas](./semana07.pdf)
+[Notas](./semana07-notas.pdf)
 
 Videos
 
- - [Ecuaciones de Bernoulli]()
- - [Ecuaciones reducibles a homogeneas]()
- - [Resumen de ecuaciones de primer orden]()
- - [Reducción de orden]()
+ - [Ecuaciones de Bernoulli](https://youtu.be/Kg1HiCcsWjI)
+ - [Ecuaciones reducibles a homogeneas](https://youtu.be/57zHuOg7l1s)
+ - [Resumen de ecuaciones de primer orden](https://youtu.be/0XZOnjAojU0)
+ - [Reducción de orden](https://youtu.be/1hTQQgsTFhI)
