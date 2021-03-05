@@ -71,3 +71,14 @@ Videos
  - [Ecuaciones separables de primer orden (substituciones)](https://youtu.be/Gthg-APlYVM)
  - [Ecuaciones lineales de primer orden](https://youtu.be/7DT-LtNTKC0)
  - [Curvas ortogonales](https://youtu.be/k6QoNiFZTFM)
+
+## Semana 7
+
+[Notas](./semana07.pdf)
+
+Videos
+
+ - [Ecuaciones de Bernoulli]()
+ - [Ecuaciones reducibles a homogeneas]()
+ - [Resumen de ecuaciones de primer orden]()
+ - [Reducción de orden]()
