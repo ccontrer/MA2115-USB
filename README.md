@@ -82,3 +82,16 @@ Videos
  - [Ecuaciones reducibles a homogeneas](https://youtu.be/57zHuOg7l1s)
  - [Resumen de ecuaciones de primer orden](https://youtu.be/0XZOnjAojU0)
  - [Reducción de orden](https://youtu.be/1hTQQgsTFhI)
+
+## Semana 8
+
+[Notas](./semana08-notas.pdf)
+
+Videos
+
+ - [Reduccion de orden p2](https://youtu.be/4qrYgv4gvFY)
+ - [Sistemas de ecuaciones lineales (intro)](https://youtu.be/SerQZfAg-J8)
+ - [Sistema con matriz constante](https://youtu.be/Q_FAvh2Zlnk)
+ - [Sistema con matriz constante (condicion inicial)](https://youtu.be/jLgebaBxAhk)
+ - [Autovalores repetidos](https://youtu.be/CJDYS_PGf9E)
+
