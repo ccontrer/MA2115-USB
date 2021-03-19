@@ -95,3 +95,11 @@ Videos
  - [Sistema con matriz constante (condicion inicial)](https://youtu.be/jLgebaBxAhk)
  - [Autovalores repetidos](https://youtu.be/CJDYS_PGf9E)
 
+## Semana 9
+
+[Notas](./semana09.pdf)
+
+ - [Autovalores repetidos (revisado)]()
+ - [Autovalores complejos]()
+ - [Sistemas no homogéneos (ejemplo 1)]()
+ - [Sistemas no homogéneos (ejemplo 2)]()
