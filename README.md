@@ -99,7 +99,20 @@ Videos
 
 [Notas](./semana09-notas.pdf)
 
+Videos 
+
  - [Autovalores repetidos (todos los casos)](https://youtu.be/Eljgcv3BMfU)
  - [Autovalores complejos](https://youtu.be/WONUcEih1-s)
  - [Sistemas no homogéneos (ejemplo 1)](https://youtu.be/qS5xH1mpbWY)
  - [Sistemas no homogéneos (ejemplo 2)](https://youtu.be/oflC7D3lVs8)
+
+## Semana 10
+
+[Notas](./semana10.pdf)
+
+Videos
+
+ - [Ecuaciones lineales homogeneas de orden n]()
+ - [Coeficientes indeterminados]()
+ - [Variación de parámetros]()
+ - [Ecuación de Cauchy-Euler]()
