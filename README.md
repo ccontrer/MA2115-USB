@@ -112,7 +112,7 @@ Videos
 
 Videos
 
- - [Ecuaciones lineales homogeneas de orden n]()
- - [Coeficientes indeterminados]()
- - [Variación de parámetros]()
- - [Ecuación de Cauchy-Euler]()
+ - [Ecuaciones lineales homogeneas de orden n](https://youtu.be/Kyl30g4Eups)
+ - [Coeficientes indeterminados](https://youtu.be/0jMka0Q7A0Q)
+ - [Variación de parámetros](https://youtu.be/uC6p6t-W4OY)
+ - [Ecuación de Cauchy-Euler](https://youtu.be/j3bRjmhT5nk)
