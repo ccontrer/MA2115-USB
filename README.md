@@ -108,7 +108,7 @@ Videos
 
 ## Semana 10
 
-[Notas](./semana10.pdf)
+[Notas](./semana10-notas.pdf)
 
 Videos
 
